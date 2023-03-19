@@ -7,6 +7,6 @@ This is a Simple Port Scanner coded in python that instead of completing the 3 w
 Make sure you have colorama:
 
 ```bash
-┌──(root㉿kali)-[~]
+   ┌──(root㉿kali)-[~]
    └─#pip3 install colorama
 ```
