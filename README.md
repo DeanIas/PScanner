@@ -18,4 +18,4 @@ To use the script, simply run the main program:
 ```
 [root@linux ~]# python3 main.py
 ```
-#IMPORTAND: Creating raw sockets in most operating systems requires root or administrator privileges. So run it as ROOT
+# IMPORTAND: Creating raw sockets in most operating systems requires root or administrator privileges. So run it as ROOT
