@@ -66,8 +66,8 @@ if __name__ == '__main__':
 
     open_ports = []
     for port in tqdm(ports, desc="Scanning Ports"):
-        kek = syn.SYNPacket(mylanip, ip_addr, port)
-        packet = kek.pack(find_lan_ip(),ip_addr)
+        mkpkt = syn.SYNPacket(mylanip, ip_addr, port)
+        packet = mkpkt.pack(find_lan_ip(),ip_addr)
         try:
             s.sendto(packet, (ip_addr, 0))
             response = s.recvfrom(1024)
